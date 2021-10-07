@@ -15,7 +15,13 @@ Wordpress interview questions
 | 9  | [Current version of wordpress](#9-current-version-of-wordpress)  |
 | 10 | [What is wordpress loop](#10-what-is-wordpress-loop)  |
 | 11 | [Do deactivated plugins slow down your wordPress website](#11-do-deactivated-plugins-slow-down-your-wordpress-website)  |
-| 12 | [What do you mean by child theme](#12-What-do-you-mean-by-child-theme)  |
+| 12 | [What do you mean by child theme](#12-what-do-you-mean-by-child-theme)  |
+| 13 | [What is the purpose of single.php file](#13-what-is-the-purpose-of-singlephp-file)  |
+| 14 | [What is excerpt](#14-what-is-excerpt)  |
+| 15 | [What are the 2 important files to make a wordpress theme](#15-what-are-the-2-important-files-to-make-a-wordpress-theme)  |
+| 16 | [What are the different user roles](#16-what-are-the-different-user-roles)  |
+| 17 | [What is htaccess file and its purpose](#17-what-is-htaccess-file-and-its-purpose)  |
+
 
 
 
@@ -81,6 +87,25 @@ Both are content types in wordpress
 * Child theme is an extension of parent theme
 * If we want to modify/change the existing functionality of a theme, then we can use child theme 
 * Child theme will preserve all the changes and customizations even after updating the theme
+
+### 13. What is the purpose of single.php file
+* single.php file display a single post/blog.
+
+### 14. What is excerpt
+* A WordPress excerpt is an optional summary or brief summary that you can attach to a post.
+
+### 15. What are the 2 important files to make a wordpress theme
+* Style.css and index.php
+
+### 16. What are the different user roles
+1. Administrator 2. Editor 3. Author 4. Contributor 5. Subscriber.
+
+### 17. What is htaccess file and its purpose
+* htaccess file is a basic configuration file used by the Apache web server
+* It lets you create special rules that tell your web server how to function
+* It can override many server configuration settings
+* Can be used for authorization, cache control, website optimization, and URL rewriting.
+
 
 ******************************In progress******************************************
 
