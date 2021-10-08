@@ -21,6 +21,10 @@ Wordpress interview questions
 | 15 | [What are the 2 important files to make a wordpress theme](#15-what-are-the-2-important-files-to-make-a-wordpress-theme)  |
 | 16 | [What are the different user roles](#16-what-are-the-different-user-roles)  |
 | 17 | [What is htaccess file and its purpose](#17-what-is-htaccess-file-and-its-purpose)  |
+| 18 | [How many default tables are there in wordpress](#18-how-many-default-tables-are-there-in-wordpress)  |
+| 19 | [Name some form plugins that can be used to create forms in wordpress](#19-name-some-form-plugins-that-can-be-used-to-create-forms-in-wordpress)  |
+| 20 | [What is wordpress taxonomy](#20-what-is-wordpress-taxonomy)  |
+
 
 
 
@@ -106,7 +110,33 @@ Both are content types in wordpress
 * It can override many server configuration settings
 * Can be used for authorization, cache control, website optimization, and URL rewriting.
 
+### 18. How many default tables are there in wordpress
+There are 12 default tables in WordPress database
+* wp_options
+* wp_users
+* wp_usermeta
+* wp_comments
+* wp_commentmeta
+* wp_terms
+* wp_termmeta
+* wp_posts
+* wp_postmeta
+* wp_links
+* wp_term_relationships
+* wp_term_taxonomy
 
-******************************In progress******************************************
+### 19. Name some form plugins that can be used to create forms in wordpress
+* WPForms
+* Formidable Forms
+* HubSpot for WordPress
+* Contact Form 7
+* Jetpack Form
+* Ninja Forms
+
+### 20. What is wordpress taxonomy
+* Wordpress taxonomy is a groupting mechanism to group related posts together
+* By default, wordpress has 4 taxonomies - Category, Tag, Link Categroy, Post Formats
+
+******************************In progress
 
 
