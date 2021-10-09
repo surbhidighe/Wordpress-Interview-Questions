@@ -24,7 +24,9 @@ Wordpress interview questions
 | 18 | [How many default tables are there in wordpress](#18-how-many-default-tables-are-there-in-wordpress)  |
 | 19 | [Name some form plugins that can be used to create forms in wordpress](#19-name-some-form-plugins-that-can-be-used-to-create-forms-in-wordpress)  |
 | 20 | [What is wordpress taxonomy](#20-what-is-wordpress-taxonomy)  |
-
+| 21 | [From SEO point of view is wordpress helpful](#21-from-seo-point-of-view-is-wordpress-helpful)  |
+| 22 | [What are the rules that one must follow while developing a plugin](#22-what-are-the-rules-that-one-must-follow-while-developing-a-plugin)  |
+| 23 | [What is the prefix of WordPress tables by default](#23-what-is-the-prefix-of-wordpress-tables-by-default)  |
 
 
 
@@ -64,10 +66,14 @@ Wordpress interview questions
 
 ### 6. How can you enable and disable debug mode in wordpress
 ##### Disable Debugging
-* define( 'WP_DEBUG', false ); //in wp-config.php file
+```
+define( 'WP_DEBUG', false ); //in wp-config.php file
+```
 
 ##### Enable Debugging
-* define( 'WP_DEBUG', true ); //in wp-config.php file
+```
+define( 'WP_DEBUG', true ); //in wp-config.php file
+```
 
 ### 7. Where is Wordpress content stored
 * WordPress contents are stored in MySQL database on the Server.
@@ -136,6 +142,26 @@ There are 12 default tables in WordPress database
 ### 20. What is wordpress taxonomy
 * Wordpress taxonomy is a groupting mechanism to group related posts together
 * By default, wordpress has 4 taxonomies - Category, Tag, Link Categroy, Post Formats
+
+### 21. From SEO point of view is wordpress helpful
+* Wordpress has an inbuilt SEO engine and it is one of the main advantage of using wordpress
+* We can also install an extra SEO plugin (Most popular seo plugin is - YOAST SEO)
+
+### 22. What are the rules that one must follow while developing a plugin
+1. Create a folder inside wp-content/plugins directory
+2. Give a unique name to that folder. For e.g I want to create a cookie plugin so, I'll set "Cookie" as folder name
+3. Create a sub-folder for PHP files, translations, and assets
+4. Create the main plugin file, and fill up the header information
+5. Create activation and de-activation function
+6. Create an uninstall script
+7. Create a readme.txt file
+8. Use proper constants and functions to detect paths to a plugin file
+
+### 23. What is the prefix of WordPress tables by default
+```
+wp_ is the prefix for WordPress
+```
+
 
 ******************************In progress
 
