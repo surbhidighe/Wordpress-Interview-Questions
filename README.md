@@ -27,7 +27,13 @@ Wordpress interview questions
 | 21 | [From SEO point of view is wordpress helpful](#21-from-seo-point-of-view-is-wordpress-helpful)  |
 | 22 | [What are the rules that one must follow while developing a plugin](#22-what-are-the-rules-that-one-must-follow-while-developing-a-plugin)  |
 | 23 | [What is the prefix of WordPress tables by default](#23-what-is-the-prefix-of-wordpress-tables-by-default)  |
-
+| 24 | [What is comment moderation](#24-what-is-comment-moderation)  |
+| 25 | [What are the limitations of wordpress](#25-what-are-the-limitations-of-wordpress)  |
+| 26 | [How can we take backup of a wordpress site](#26-how-can-we-take-backup-of-a-wordpress-site)  |
+| 27 | [What might be the reasons when the Plugins menu is not visible](#27-what-might-be-the-reasons-when-the-plugins-menu-is-not-visible)|
+| 28 | [What are the steps to develop a wordpress plugin](#28-what-are-the-steps-to-develop-a-wordpress-plugin)|
+| 29 | [When should you not recommend wordPress to a client](#29-when-should-you-not-recommend-wordpress-to-a-client)|
+| 30 | [What are meta tags](#30-what-are-meta-tags)|
 
 
 
@@ -59,7 +65,6 @@ Wordpress interview questions
 | ------------- | ------------- |
 | * We host our site  | * WordPress.com takes care of all of this | 
 | * Open Source and 100% free  | * It has different pricing plans (Free plan has limited features)  |
-| * Can add plugins and themes  | * Can not add plugins and themes  |
 | * Can add plugins and themes  | * Can not add plugins and themes  |
 | * Can make money by placing ads  | * Can not make money |
 | * Need to look after backups and updates  | * We will not have to worry about updates or backups. WordPress.com will take care of that. |
@@ -162,6 +167,61 @@ There are 12 default tables in WordPress database
 wp_ is the prefix for WordPress
 ```
 
+### 24. What is comment moderation
+When a visitor/user comments on a post, the comment is not published directly until and unless it is approved by the admin to be posted. It is used to avoid comment spamming.
+
+### 25. What are the limitations of wordpress
+* Using a huge number of plugins can make the website heavy to load
+* Frequent plugin and theme updates
+* Data Security and Vulnerability
+* One must have knowledge about PHP in order to write custom code
+* Some plugins may conflict with each other
+
+### 26. How can we take backup of a wordpress site
+There ar 3 ways to take backup-
+1. Using Plugin
+```
+There are various plugins that can be used to automate the backup of a wordpress site. Some of them are UpdraftPlus, BackupBuddy etc.
+```
+2. Through Hosting
+```
+Most web hosting companies offer free, automatic backups with their advanced hosting plans and charge a little extra for users on their basic plans. 
+```
+3. Manually
+```
+We can use backup scripts and can manually take backup from FTP or Cpanel
+```
+### 27. What might be the reasons when the Plugins menu is not visible
+* Reason 1 - When the website is hosted on wordpress.com
+* Reason 2 - When the user is logged in with a non-admin account 
+* Reason 3 - When the WordPress website/blog is a part of a multi-site-network and the network admin has disabled the plugin menu
+* Reason 4 - Plugins or Themes Conflict
+
+### 28. What are the steps to develop a wordpress plugin
+1. Create a new folder inside wp-content/plugins directory
+2. Give a unique name to that folder e.g My-First-Plugin
+3. Create a new php file inside My-First-Plugin folder
+4. Add below header info inside the php file
+```
+<?php
+/**
+* Plugin Name: My First Plugin
+* Plugin URI: https://www.yourwebsiteurl.com/
+* Description: This is the first plugin I have created.
+* Version: 1.0
+* Author: Your Name Here
+* Author URI: http://yourwebsiteurl.com/
+**/
+```
+5. Create functions for activation and deactivation, create an uninstall script and readme.txt file.
+
+### 29. When should you not recommend wordPress to a client?
+1. If they are working on a non-CMS based project
+2. If they want complex website
+3. If the site requires a huge number of custom scripting solutions
+
+### 30. What are meta tags
+Meta-tags are descriptions and keywords that are used to display website or page information.
 
 ******************************In progress
 
